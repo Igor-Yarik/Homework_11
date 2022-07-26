@@ -1,0 +1,38 @@
+@import "./normalize.css";
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.wrapper {
+    width: 1110px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.head_top {
+    background-color: #E5E5E5;
+
+}
+
+.head_logo {
+
+
+}
+
+.head_nav {
+
+}
+
+.intro {
+    background-image: url(/Homework_11/);
+}
