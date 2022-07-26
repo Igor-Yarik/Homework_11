@@ -8,6 +8,10 @@ a {
     text-decoration: none;
 }
 
+h1, h2, p {
+    margin: 0;
+}
+
 body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
@@ -21,18 +25,165 @@ body {
 
 .head_top {
     background-color: #E5E5E5;
+    padding-top: 17px;
+    padding-bottom: 16px;
+    text-align: center;
 
+}
+
+.head_top .link {
+    color: #333333;
+    margin-right: 30px;
+}
+
+.head_top .link:last-child {
+    margin-right: 0;
 }
 
 .head_logo {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #EFEFEF;
+}
+
+.logo_items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
 
 
+.contacts_item {
+    line-height: 19px;
+    color: #000000;
+}
+
+.contact_btn {
+    border: 2px solid #F13C6E;
+    border-radius: 40px;
+    background-color: #fff;
+    padding: 13px 27px;
+    margin-left: 40px;
 }
 
 .head_nav {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+
+.head_nav .link {
+    line-height: 19px;
+    color: #000000;
+    margin-right: 40px;
+}
+
+.head_nav .link:last-child {
+    margin-right: 0;
+}
+
+
+.intro {
+    background: url(/images/main_bg.jpg) no-repeat center #f13c6e;
+    color: #fff;
+}
+
+.intro_title {
+    width: 308px;
+    padding-top: 192px;
+    padding-bottom: 193px;
+}
+
+
+
+.intro_sup_title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    margin-bottom: 50px;
+    
+}
+
+.intro_sub_title {
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 50px;
+}
+
+.intro_btn {
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    border-radius: 40px;
+    padding: 13px 43px;
+}
+
+.main_content {
+    padding-top: 80px;
+    padding-bottom: 81px;
+    background-color: #E5E5E5;
+}
+
+.content_title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    padding-bottom: 38px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
 
 }
 
-.intro {
-    background-image: url(/Homework_11/);
+.content_card {
+    display: inline-block;
+    width: 255px;
+    background-color: #fff;
+    padding: 25px 30px;
+    text-align: center;
+}
+
+
+.content_img {
+    width: 125px;
+    margin-bottom: 20px;
+}
+
+.content_name {
+    font-size: 14px;
+    line-height: 20px;
+    color: #333333;
+    margin-bottom: 20px;
+    
+
+}
+
+.content_price {
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    margin-bottom: 29px;
+
+}
+
+.content_btn {
+    display: inline-block;
+    padding: 9px 40px;
+    background: #F13C6E;
+    border-radius: 30px;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
 }
