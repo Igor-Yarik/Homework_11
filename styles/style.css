@@ -103,13 +103,13 @@ body {
 .intro {
     display: flex;
     background: url(../images/main_bg.jpg) no-repeat center #f13c6e ;
-    color: #fff;   
+    color: #fff;  
+    padding-top: 192px;
+    padding-bottom: 193px; 
 }
 
 .intro_title {
     width: 308px;
-    padding-top: 192px;
-    padding-bottom: 193px;
 }
 
 .intro_sup_title {
@@ -154,7 +154,7 @@ body {
     font-weight: 700;
     font-size: 24px;
     line-height: 28px;
-    padding-bottom: 38px;
+    margin-bottom: 38px;
 }
 
 .content {
@@ -163,7 +163,6 @@ body {
 }
 
 .content_card {
-    display: inline-block;
     width: 255px;
     background-color: #fff;
     padding: 25px 30px;
@@ -226,14 +225,16 @@ body {
     color: #FFFFFF;
 }
 
-.bonus {
+.sub_item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding: 35px 45px 35px 40px;
     width: 540px;
-    background: url(../images/icons/email_icon.png) center right 45px no-repeat;
-    background-color: #F13C6E;
+    background-color: #F13C6E;    
 }
 
-.bonus_item {
+.item_title {
     width: 250px;
 }
 
@@ -241,13 +242,13 @@ body {
     font-weight: 700;
     font-size: 18px;
     line-height: 21px;
-    padding-bottom: 21px;
 }
 
-.subscribe_text {
+.subscribe_text {    
     font-size: 14px;
     line-height: 20px;
-    padding-bottom: 25px;
+    margin-top: 21px;
+    margin-bottom: 25px;
 }
 
 .subscribe_form {
@@ -261,17 +262,6 @@ body {
 
 form {
     color: red;
-}
-
-.shops {
-    padding: 35px 45px 35px 40px;
-    width: 540px;
-    background: url(../images/icons/auto_icon.png) center right 45px no-repeat;
-    background-color: #F13C6E;
-}
-
-.shops_item {
-    width: 250px;
 }
 
 .subscribe_btn {
@@ -289,7 +279,7 @@ form {
     padding-bottom: 80px;
 }
 
-.brands_item {
+.brands_logo {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -315,6 +305,8 @@ form {
 .categories {
     display: flex;
     justify-content: space-between;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .categories_items {
@@ -325,13 +317,11 @@ form {
     font-weight: 500;
     line-height: 22px;
     width: 150px;
-    padding-top: 60px;
-    padding-bottom: 30px;    
+    margin-bottom: 30px;    
 }
 
 .categories_catalog {
     padding-top: 25px;
-    padding-bottom: 60px;
     border-top: 1px solid #EFEFEF;
 }
 
@@ -363,7 +353,6 @@ form {
 }
 
 .social_item {
-    display: block;
     position: relative;    
     width: 45px;
     height: 45px;
@@ -387,11 +376,7 @@ form {
 }
 
 .social_item:hover {
-<<<<<<< HEAD
-    box-shadow: 0 0 10px 5px red, inset 0 0 10px 7px red;
-=======
     box-shadow: 0 0 10px 7px #F13C6E, inset 0 0 10px 7px #F13C6E;
->>>>>>> dad72d92f21ea1f02fc9cbca74932e2f9ee7e5a8
 }
 
 .social_img {
