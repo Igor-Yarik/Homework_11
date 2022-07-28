@@ -354,7 +354,7 @@ body {
 }
 
 .social_item:hover {
-    box-shadow: 0 0 10px 0 red;
+    box-shadow: 0 0 10px 5px red, inset 0 0 10px 7px red;
 }
 
 
