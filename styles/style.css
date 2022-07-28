@@ -366,17 +366,18 @@ form {
 .social_item::after {
     content: '';
     position: absolute;
-    background: url(../images/icons/ellipse.png) center no-repeat;
-    width: 50px;
-    height: 50px;
+    border: 2px solid #F13C6E;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    z-index: 0;
 }
 
 .social_item:hover {
-    box-shadow: 0 0 10px 7px #F13C6E, inset 0 0 10px 7px #F13C6E;
+    background-color: rgba(241, 60, 110, .2);
+    border-radius: 50%;
 }
 
 .social_img {
@@ -384,7 +385,6 @@ form {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    z-index: 1;   
 }
 
 .footer_bottom {
