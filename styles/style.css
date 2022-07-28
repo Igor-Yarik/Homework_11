@@ -53,6 +53,11 @@ body {
     align-items: center;
 }
 
+.contacts {
+    display: flex;
+    align-items: center;
+}
+
 .contacts_item {
     line-height: 19px;
     color: #000000;
