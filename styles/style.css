@@ -260,10 +260,6 @@ body {
     line-height: 16px;
 }
 
-form {
-    color: red;
-}
-
 .subscribe_btn {
     display: inline-block;
     font-size: 14px;
@@ -306,7 +302,7 @@ form {
     display: flex;
     justify-content: space-between;
     padding-top: 60px;
-    padding-bottom: 60px;
+    padding-bottom: 53px;
 }
 
 .categories_items {
@@ -326,7 +322,8 @@ form {
 }
 
 .category_link {
-    display: block;
+    display: flex;
+    align-content: center;
     font-size: 12px;
     line-height: 28px;   
     color: #828282;  
